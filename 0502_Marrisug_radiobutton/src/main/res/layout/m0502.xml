@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Silver"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Silver"
+        android:baselineAligned="false"
+        android:measureWithLargestChild="false"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/m0502_t001"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/m0502_t001"
+            android:textColor="@color/Blue"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/m0502_r001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/m0502_r001a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Aqua"
+                android:checked="true"
+                android:text="@string/m0502_r001a"
+                android:textColor="@color/Navy"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/m0502_r001b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Aqua"
+                android:text="@string/m0502_r001b"
+                android:textColor="@color/Navy"
+                android:textSize="18sp" />
+        </RadioGroup>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@color/Silver"
+        android:paddingTop="@dimen/Spacing">
+
+        <TextView
+            android:id="@+id/m0502_t002"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/m0502_t002"
+            android:textColor="@color/Blue"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/m0502_r002"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Lime">
+
+            <RadioButton
+                android:id="@+id/m0502_r002a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/m0502_r002aa"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/m0502_r002b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/m0502_r002ab"
+                android:textSize="@dimen/fontsize" />
+
+            <RadioButton
+                android:id="@+id/m0502_r002c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/m0502_r002ac"
+                android:textSize="18sp" />
+
+        </RadioGroup>
+    </TableRow>
+    <Button
+        android:id="@+id/m0502_b001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Yellow"
+        android:text="@string/m0502_b001"
+        android:textColor="@color/Red"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/m0502_t003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/Spacing"
+        android:text="@string/m0502_t003"
+        android:textColor="@color/Red"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/m0502_f000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Silver"
+        android:paddingTop="@dimen/Spacing"
+        android:text="@string/m0502_f000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="end"
+        android:paddingTop="@dimen/Spacing"
+        android:text="@string/myname"
+        android:textColor="@color/Teal"
+        android:textSize="18sp" />
+</LinearLayout>
