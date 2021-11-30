@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Silver"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Silver"
+        android:baselineAligned="false"
+        android:measureWithLargestChild="false"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/m0502_t001"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/m0502_t001"
+            android:textColor="@color/Blue"
+            android:textSize="@dimen/fontsize" />
+
+        <RadioGroup
+            android:id="@+id/m0502_r001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/m0502_r001a"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:background="@color/Aqua"
+                android:checked="true"
+                android:text="@string/m0502_r001a"
+                android:textColor="@color/Navy"
+                android:textSize="@dimen/fontsize"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/m0502_r001b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Aqua"
+                android:text="@string/m0502_r001b"
+                android:textColor="@color/Navy"
+                android:textSize="@dimen/fontsize"
+                tools:ignore="TouchTargetSizeCheck" />
+        </RadioGroup>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@color/Silver"
+        android:paddingTop="@dimen/Spacing">
+
+        <TextView
+            android:id="@+id/m0502_t002"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/m0502_t002"
+            android:textColor="@color/Blue"
+            android:textSize="@dimen/fontsize"/>
+
+        <RadioGroup
+            android:id="@+id/m0502_r002"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Lime">
+
+            <RadioButton
+                android:id="@+id/m0502_r002a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/m0502_r002aa"
+                android:textSize="@dimen/fontsize"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/m0502_r002b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/m0502_r002ab"
+                android:textSize="@dimen/fontsize"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/m0502_r002c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/m0502_r002ac"
+                android:textSize="@dimen/fontsize"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </RadioGroup>
+    </TableRow>
+
+    <Button
+        android:id="@+id/m0502_b001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Yellow"
+        android:text="@string/m0502_b001"
+        android:textColor="@color/Red"
+        android:textSize="@dimen/fontsize"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/m0502_t003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/Spacing"
+        android:text="@string/m0502_t003"
+        android:textColor="@color/Red"
+        android:textSize="@dimen/fontsize"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/m0502_f000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Silver"
+        android:paddingTop="@dimen/Spacing"
+        android:text="@string/m0502_f000"
+        android:textSize="@dimen/fontsize"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="end"
+        android:paddingTop="@dimen/Spacing"
+        android:text="@string/myname"
+        android:textColor="@color/Teal"
+        android:textSize="@dimen/fontsize"
+        tools:ignore="TextContrastCheck" />
+</LinearLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:background="@color/Silver"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="@dimen/p10"-->
+<!--    tools:context=".M0502">-->
+
+<!--    <TableRow-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/p10"-->
+<!--        android:padding="@dimen/p10">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/m0502_t001"-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/m0502_t001"-->
+<!--            android:textColor="@color/Navy"-->
+<!--            android:textSize="@dimen/fontsize"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <Spinner-->
+<!--            android:id="@+id/m0502_s001"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@android:drawable/btn_dropdown"-->
+<!--            android:entries="@array/m0502_a001"-->
+<!--            android:popupBackground="@color/Yellow"-->
+<!--            android:prompt="@string/m0502_s001"-->
+<!--            android:spinnerMode="dropdown"-->
+<!--            android:textSize="@dimen/fontsize"-->
+<!--            tools:ignore="TouchTargetSizeCheck" />-->
+<!--    </TableRow>-->
+
+<!--    <TableRow-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/p10"-->
+<!--        android:padding="@dimen/p10">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/m0502_t002"-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/m0502_t002"-->
+<!--            android:textColor="@color/Navy"-->
+<!--            android:textSize="@dimen/fontsize"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/m0502_e001"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@color/White"-->
+<!--            android:ems="10"-->
+<!--            android:gravity="end"-->
+
+<!--            android:hint="@string/nospace"-->
+<!--            android:importantForAutofill="no"-->
+<!--            android:inputType="number"-->
+<!--            android:text="@string/zero"-->
+<!--            android:textColor="@color/Black"-->
+<!--            android:textSize="@dimen/fontsize"-->
+<!--            android:textStyle="normal"-->
+<!--            tools:ignore="TouchTargetSizeCheck" />-->
+
+<!--    </TableRow>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/m0502_b001"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/p20"-->
+<!--        android:background="@color/Yellow"-->
+<!--        android:padding="@dimen/p10"-->
+<!--        android:text="@string/m0502_b001"-->
+<!--        android:textColor="@color/Red"-->
+<!--        android:textSize="@dimen/fontsize"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/m0502_t003"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/p20"-->
+<!--        android:text="@string/m0502_t003"-->
+<!--        android:textColor="@color/Red"-->
+<!--        android:textSize="@dimen/fontsize"-->
+<!--        android:textStyle="bold"-->
+<!--        tools:ignore="TextContrastCheck" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/m0502_f000"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/m0502_f001"-->
+<!--        android:textColor="@color/Black"-->
+<!--        android:textSize="@dimen/fontsize"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/myname"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/p50"-->
+<!--        android:gravity="end"-->
+<!--        android:text="@string/myname"-->
+<!--        android:textColor="@color/Blue"-->
+<!--        android:textSize="@dimen/fontsize"-->
+<!--        android:textStyle="bold" />-->
+<!--</LinearLayout>-->

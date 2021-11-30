@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m0500_t001">美金(US$):</string>
+    <string name="m0500_b001">執行匯率換算</string>
+    <string name="m0500_t002">台幣(NT$):</string>
+    <string name="zero" >0</string>
+    <string name="hint">請輸入</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m0502_t001">性别:</string>
+    <string name="m0502_s001">性别选择</string>
+    <string name="m0502_b001">婚姻建议</string>
+    <string name="m0502_t003">结果:</string>
+    <string name="m0502_f001">还年轻不用急.(男)</string>
+    <string name="m0502_f002">此时结婚最好.(男)</string>
+    <string name="m0502_f003">快点找伴侣,已经迟啦.(男)</string>
+    <string name="m0502_f004">还年轻不用急.(女)</string>
+    <string name="m0502_f005">此时结婚最好.(女)</string>
+    <string name="m0502_f006">快点找伴侣,已经迟啦.(女)</string>
+    <string name="m0502_t002">年龄:</string>
+    <string name="chk01">男</string>
+    <string name="m0502_f000">建议您</string>
+    <string name="m0502_r001a">男</string>
+    <string name="m0502_r001b">女</string>
+    <string name="m0502_r002aa">小于28岁</string>
+    <string name="m0502_r002ab">28~33岁</string>
+    <string name="m0502_r002ac">大于33岁</string>
+    <string name="m0502_r002ba">小于25岁</string>
+    <string name="m0502_r002bb">25~30岁</string>
+    <string name="m0502_r002bc">大于30岁</string>
+</resources>

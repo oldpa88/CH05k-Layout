@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m0505_t001">請輸入文字:</string>
+    <string name="m0505_a001">(空)</string>
+    <string name="m0505_b001">加入自動完成文字</string>
+    <string name="m0505_b002">清除自動完成文字</string>
+</resources>

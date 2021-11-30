@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/0500d_Converter" />
+            <option value="$PROJECT_DIR$/0500f_MoneyChange" />
+            <option value="$PROJECT_DIR$/0500g_AreaConverter" />
+            <option value="$PROJECT_DIR$/0501_Marrisug" />
+            <option value="$PROJECT_DIR$/0502_Marrisug_radiobutton" />
+            <option value="$PROJECT_DIR$/0502a_Marrisug_zh" />
+            <option value="$PROJECT_DIR$/0503_CheckBox" />
+            <option value="$PROJECT_DIR$/0504_ScrollView" />
+            <option value="$PROJECT_DIR$/0505_Auto_Complete_TextInput" />
+            <option value="$PROJECT_DIR$/0506_TextViewScrollable" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

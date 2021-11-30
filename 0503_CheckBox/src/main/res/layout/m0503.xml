@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Gray"
+    android:orientation="vertical"
+    android:padding="@dimen/Spacing">
+
+    <CheckBox
+        android:id="@+id/m0503_chb01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/Silver"
+        android:buttonTint="@color/Red"
+        android:checked="true"
+        android:paddingTop="5dp"
+        android:text="@string/m0503_chb01"
+        android:textSize="@dimen/fontsize"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/m0503_chb02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Silver"
+        android:buttonTint="@color/Red"
+        android:paddingTop="5dp"
+        android:text="@string/m0503_chb02"
+        android:textSize="@dimen/fontsize"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/m0503_chb03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Silver"
+        android:buttonTint="@color/Red"
+        android:paddingTop="5dp"
+        android:text="@string/m0503_chb03"
+        android:textSize="@dimen/fontsize"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/m0503_chb04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Silver"
+        android:buttonTint="@color/Red"
+        android:text="@string/m0503_chb04"
+        android:textSize="@dimen/fontsize"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/m0503_btn01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/Yellow"
+        android:paddingTop="5dp"
+        android:text="@string/m0503_btn01"
+        android:textColor="@color/Red"
+        android:textSize="@dimen/fontsize"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/m0503_txt001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/Silver"
+        android:buttonTint="@color/Red"
+        android:text="@string/m0503_txt01"
+        android:textSize="@dimen/fontsize"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+
+        android:gravity="end"
+        android:text="@string/myname"
+        android:textColor="@color/Navy"
+        android:textSize="@dimen/fontsize"
+        tools:ignore="TextContrastCheck" />
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Silver"
+    android:orientation="vertical"
+    android:padding="@dimen/padding">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/m0500_t001"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:text="@string/m0500_t001"
+            android:textColor="@color/Navy"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/m0500_e001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:gravity="end"
+            android:hint="@string/hint"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:textColor="@color/Blue"
+            android:textColorHint="@color/Blue"
+            android:textSize="24sp"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+    </TableRow>
+
+
+    <Button
+        android:id="@+id/m0500_b001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top"
+        android:background="@color/Yellow"
+        android:text="@string/m0500_b001"
+        android:textColor="@color/Red"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/p20">
+
+        <TextView
+            android:id="@+id/m0500_t002"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:text="@string/m0500_t002"
+            android:textColor="@color/Navy"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/m0500_t003"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Aqua"
+            android:gravity="end"
+            android:labelFor="@id/m0500_t003"
+            android:text="@string/zero"
+            android:textColor="@color/Blue"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/p200"
+        android:gravity="end"
+        android:text="@string/myname"
+        android:textColor="@color/Navy"
+        android:textSize="18sp" />
+
+
+    <!--    <TextView-->
+<!--        android:id="@+id/myname"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/p50"-->
+<!--        android:text="@string/myname"-->
+<!--        android:textAlignment="textEnd"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold" />-->
+</LinearLayout>

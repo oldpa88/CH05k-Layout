@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">15dp</dimen>
+    <dimen name="top">15dp</dimen>
+    <dimen name="p10">10dp</dimen>
+    <dimen name="p20">20dp</dimen>
+    <dimen name="p50">50dp</dimen>
+    <dimen name="p200">200dp</dimen>
+</resources>

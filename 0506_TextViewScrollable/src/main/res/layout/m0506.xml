@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Silver"
+    android:orientation="vertical"
+    android:padding="@dimen/pa01"
+    tools:context=".M0506">
+
+    <TextView
+        android:id="@+id/m0506_t001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Yellow"
+        android:gravity="center"
+        android:text="@string/m0506_t001"
+        android:textColor="@color/Blue"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/m0506_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:maxLines="15"
+
+        android:background="@color/White"
+        android:text="@string/m0506_msg01"
+        android:textColor="@color/Blue"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/Spacing"
+        android:gravity="end"
+        android:text="@string/myname"
+        android:textColor="@color/Black"
+        android:textSize="18sp" />
+
+</LinearLayout>
